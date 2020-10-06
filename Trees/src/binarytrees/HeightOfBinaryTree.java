@@ -1,0 +1,15 @@
+package binarytrees;
+
+
+public class HeightOfBinaryTree {
+
+    public static int height(BinaryTreeNode<Integer> root) {
+        if (root == null)
+            return 0;
+
+        int leftHeight = height(root.left);
+        int rightHeight = height(root.right);
+
+        return leftHeight >= rightHeight ? leftHeight + 1 : rightHeight +1;
+    }
+}
