@@ -2,7 +2,7 @@ package recursion2;
 
 import java.util.Scanner;
 
-public class ReturnAllCodes {
+public class ReturnAllCodes1 {
 	
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
@@ -13,9 +13,9 @@ public class ReturnAllCodes {
 		}
 	}
 	// 1123	
-	public static  String[] getCode(String input){
-		
-	}
+	// public static  String[] getCode(String input){
+	// 	return null;
+	// }
 	
 	public static char asciiValues(String n) {
 		switch(n) {
